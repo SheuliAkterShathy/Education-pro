@@ -39,6 +39,9 @@ header{
     color: rgb(6, 212, 212);
 }
 /* join-section-ends here */
+.questions-ans{
+    max-width: 75%;
+}
 
 
 /* for mobile */
@@ -59,6 +62,9 @@ header{
     flex-direction: column;
     text-align: center;
 }
+.questions-ans{
+    max-width: 100%;
+}
 }
 
 /* for tablet */
@@ -72,5 +78,8 @@ header{
     .join-section{
         flex-direction: column;
         text-align: center;
+    }
+    .questions-ans{
+        max-width: 100%;
     }
     }
