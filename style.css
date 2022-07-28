@@ -18,6 +18,7 @@ header{
     font-size: 80px;
 }
 /* header ends here */
+
 /* discover-section-starts here */
 .grid-container{
     display: grid;
@@ -31,6 +32,18 @@ header{
 }
 /* discover-section-ends here */
 
+/* explore-institute section starts here */
+.explore-institute{
+    margin-top: 100px;
+}
+.explore-image img{
+    max-height: 100%;
+    
+}
+.explore-para{
+    max-height: 100%;
+}
+/* explore-institute section ends here */
 .cards{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -129,6 +142,9 @@ header{
     }
     .started-para{
         font-size: 50px;
+    }
+    .hidden{
+        display: none;
     }
     .join-section{
         flex-direction: column;
