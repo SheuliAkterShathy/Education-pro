@@ -30,6 +30,15 @@ header{
     max-width: 650px;
 }
 /* discover-section-ends here */
+/* join-section-starts here */
+.join-section{
+    height: 250px;
+}
+.join-button{
+    background-color: white;
+    color: rgb(6, 212, 212);
+}
+/* join-section-ends here */
 
 
 /* for mobile */
@@ -46,6 +55,10 @@ header{
 .started-para{
     font-size: 30px;
 }
+.join-section{
+    flex-direction: column;
+    text-align: center;
+}
 }
 
 /* for tablet */
@@ -55,5 +68,9 @@ header{
     }
     .started-para{
         font-size: 50px;
+    }
+    .join-section{
+        flex-direction: column;
+        text-align: center;
     }
     }
