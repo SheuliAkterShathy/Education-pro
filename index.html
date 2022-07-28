@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="container navbar-container">
+    <header>
+        <section class="container navbar-container">
         <nav class="navbar fixed-top navbar-expand-lg bg-light">
             <div class="container">
               <a class="navbar-brand" href="#">
@@ -49,6 +50,49 @@
               </div>
             </div>
           </nav>
+        </section>
+
+
+          <section class="container">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner cover-image">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                   <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption mb-5">
+                        <h5 class="fw-bold started-para">Get Started Digital Learning</h5>
+                        <p class="discover-para mx-auto">The purpose is to unlock people's potential to maximize their own performance, to improve employee performance in areas directly connected to achieving goals.</p>
+                        <button class="bg-info text-white border-0 py-2 px-4 rounded-2 fw-bold">Get Started</button>
+                      </div>
+                  </div>
+
+
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption mb-5">
+                        <h5 class="fw-bold started-para">Get Started Digital Learning</h5>
+                        <p class="discover-para mx-auto">The purpose is to unlock people's potential to maximize their own performance, to improve employee performance in areas directly connected to achieving goals.</p>
+                        <button class="bg-info text-white border-0 py-2 px-4 rounded-2 fw-bold">Get Started</button>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption mb-5">
+                        <h5 class="fw-bold started-para">Get Started Digital Learning</h5>
+                        <p class="discover-para mx-auto">The purpose is to unlock people's potential to maximize their own performance, to improve employee performance in areas directly connected to achieving goals.</p>
+                        <button class="bg-info text-white border-0 py-2 px-4 rounded-2 fw-bold">Get Started</button>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </section>
     </header>
     <main>
         <section class="container discover-section">
@@ -58,7 +102,7 @@
           </div>
 
 
-          <div class="grid-container">
+          <div class="grid-container mt-5">
             <div class="courses">
                 <div class="course-item d-flex border rounded h-100">
                  <img src="images/courses/course-1.png" alt="">
@@ -122,6 +166,10 @@
                    </div>
             </div>
           </div>
+
+           <div class="text-center mt-5">
+            <button class="bg-info text-white border-0 py-2 px-4 rounded-2 fw-bold">View All</button>
+           </div>
         </section>
     </main>
 
