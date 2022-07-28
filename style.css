@@ -6,7 +6,7 @@ img{
 }
 /* header starts here */
 header{
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 .navbar-container{
     margin-bottom: 100px;
@@ -30,9 +30,17 @@ header{
     max-width: 650px;
 }
 /* discover-section-ends here */
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+}
 /* join-section-starts here */
 .join-section{
     height: 250px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 .join-button{
     background-color: white;
@@ -41,7 +49,9 @@ header{
 /* join-section-ends here */
 
 /* questions-section starts here */
-
+.question-section{
+    margin-top: 100px;
+}
 .questions-ans{
     max-width: 75%;
 }
@@ -72,6 +82,10 @@ header{
 .grid-container{
     grid-template: none;
 }
+.discover-para{
+    min-width: 100%;
+    margin: 10px 0px;
+}
 .course-item{
     flex-direction: column;
 }
@@ -83,6 +97,21 @@ header{
 }
 .join-section{
     flex-direction: column;
+    text-align: center;
+}
+.feedback{
+    text-align: center;
+}
+.feedback-para{
+   min-width: 100%;
+}
+.cards{
+    grid-template-columns: repeat(1,1fr);
+}
+.card-img-top img{
+    width:100%;
+}
+.card-body{
     text-align: center;
 }
 .questions-ans{
@@ -104,6 +133,12 @@ header{
     .join-section{
         flex-direction: column;
         text-align: center;
+    }
+    .feedback-para{
+        min-width: 80%;
+     }
+    .cards{
+        grid-template-columns: repeat(2,1fr);
     }
     .questions-ans{
         max-width: 100%;
